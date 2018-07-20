@@ -5,7 +5,9 @@ import {
   MatToolbarModule,
   MatButtonModule,
   MatGridListModule,
-  MatCardModule
+  MatCardModule,
+  MatInputModule,
+  MatSelectModule
 } from '@angular/material';
 
 @NgModule({
@@ -14,14 +16,17 @@ import {
     MatToolbarModule,
     MatButtonModule,
     MatGridListModule,
-    MatCardModule
-
+    MatCardModule,
+    MatInputModule,
+    MatSelectModule
   ],
   exports:[
     MatToolbarModule,
     MatButtonModule,
     MatGridListModule,
-    MatCardModule
+    MatCardModule,
+    MatInputModule,
+    MatSelectModule
   ],
   declarations: []
 })

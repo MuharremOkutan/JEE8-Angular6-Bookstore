@@ -1,0 +1,76 @@
+<h1 class="mat-headline">
+  {{ book.title }}
+</h1>
+<h2 class="mat-subheader">
+  {{ book.isbn }} | {{ book.language }}
+</h2>
+
+<div class="container">
+
+  <mat-form-field>
+    <input matInput placeholder="ISBN" [(ngModel)]="book.isbn">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Title" [(ngModel)]="book.title">
+  </mat-form-field>
+
+  <mat-form-field>
+    <textarea matInput placeholder="Description" rows="7" [(ngModel)]="book.description"></textarea>
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Unit Cost" type="number" [(ngModel)]="book.price">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Number of Pages" type="number" [(ngModel)]="book.nbOfPages">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Title" [(ngModel)]="book.title">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Language</mat-label>
+    <mat-select [(ngModel)]="book.language">
+      <mat-option value="ENGLISH">ENGLISH</mat-option>
+      <mat-option value="FRENCH">FRENCH</mat-option>
+      <mat-option value="SPANISH">SPANISH</mat-option>
+      <mat-option value="PORTUGUESE">PORTUGUESE</mat-option>
+      <mat-option value="ITALIAN">ITALIAN</mat-option>
+      <mat-option value="FINISH">FINISH</mat-option>
+      <mat-option value="GERMAN">GERMAN</mat-option>
+      <mat-option value="DEUTSCH">DEUTSCH</mat-option>
+      <mat-option value="RUSSIAN">RUSSIAN</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Image" [(ngModel)]="book.imageUrl">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput placeholder="Publication Date" type="date" [(ngModel)]="book.publicationDate">
+  </mat-form-field>
+
+  <div class="actions">
+    <button mat-flat-button color="accent">CREATE</button>
+    <button mat-flat-button>BACK</button>
+  </div>
+
+</div>
+
+<style>
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container > * {
+    width: 100%;
+  }
+
+  .actions > * {
+    margin: 0 8px;
+  }
+</style>
