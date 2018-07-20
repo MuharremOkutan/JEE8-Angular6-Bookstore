@@ -1,0 +1,167 @@
+---
+swagger: "2.0"
+info:
+  description: "BookStore APIs exposed from a Java EE back-end to an Angular front-end"
+  version: "1.0.0"
+  title: "BookStore APIs"
+  contact:
+    name: "Raffaele Garofalo"
+    url: "https://app.pluralsight.com/library/search?q=Antonio+Goncalves"
+    email: "raffaeu@gmail.com"
+host: "localhost:8080"
+basePath: "/bookstore-back/api"
+tags:
+- name: "Books"
+schemes:
+- "http"
+- "https"
+paths:
+  /books:
+    get:
+      tags:
+      - "Books"
+      summary: "Returns all the books"
+      description: ""
+      operationId: "getBooks"
+      produces:
+      - "application/json"
+      parameters: []
+      responses:
+        200:
+          description: "Books found"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Book"
+        204:
+          description: "No books found"
+    post:
+      tags:
+      - "Books"
+      summary: "Creates a book given a JSon Book representation"
+      description: ""
+      operationId: "createBook"
+      consumes:
+      - "application/json"
+      parameters:
+      - in: "body"
+        name: "body"
+        description: "Book to be created"
+        required: true
+        schema:
+          $ref: "#/definitions/Book"
+      responses:
+        201:
+          description: "The book is created"
+        415:
+          description: "Format is not JSon"
+  /books/count:
+    get:
+      tags:
+      - "Books"
+      summary: "Returns the number of books"
+      description: ""
+      operationId: "countBooks"
+      produces:
+      - "text/plain"
+      parameters: []
+      responses:
+        200:
+          description: "Number of books found"
+          schema:
+            type: "integer"
+            format: "int64"
+        204:
+          description: "No books found"
+  /books/{id}:
+    get:
+      tags:
+      - "Books"
+      summary: "Returns a book given an id"
+      description: ""
+      operationId: "getBook"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "path"
+        required: true
+        type: "integer"
+        format: "int64"
+      responses:
+        200:
+          description: "Book found"
+          schema:
+            $ref: "#/definitions/Book"
+        400:
+          description: "Invalid input. Id cannot be lower than 1"
+        404:
+          description: "Book not found"
+    delete:
+      tags:
+      - "Books"
+      summary: "Deletes a book given an id"
+      description: ""
+      operationId: "deleteBook"
+      parameters:
+      - name: "id"
+        in: "path"
+        required: true
+        type: "integer"
+        format: "int64"
+      responses:
+        204:
+          description: "Book has been deleted"
+        400:
+          description: "Invalid input. Id cannot be lower than 1"
+        500:
+          description: "Book not found"
+definitions:
+  Book:
+    type: "object"
+    required:
+    - "title"
+    properties:
+      id:
+        type: "integer"
+        format: "int64"
+        description: "The Unique Identifier"
+      title:
+        type: "string"
+        description: "The Title of the Book"
+      description:
+        type: "string"
+        description: "The Description of the Book"
+      price:
+        type: "number"
+        format: "float"
+        description: "The Price of the Book per unit"
+        minimum: 1.0
+      isbn:
+        type: "string"
+        description: "The ISBN Code of the Book"
+      publicationDate:
+        type: "string"
+        format: "date-time"
+        description: "The Date of Release"
+      nbOfPages:
+        type: "integer"
+        format: "int32"
+        description: "The Number of Pages available"
+      imageUrl:
+        type: "string"
+        description: "The URL of the Front Page"
+      language:
+        type: "string"
+        description: "The Language used in the Book"
+        enum:
+        - "ENGLISH"
+        - "FRENCH"
+        - "SPANISH"
+        - "PORTUGUESE"
+        - "ITALIAN"
+        - "FINISH"
+        - "GERMAN"
+        - "DEUTSCH"
+        - "RUSSIAN"
+    description: "Book resource representation"
