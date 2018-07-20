@@ -1,0 +1,2081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bookstore-back:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="879549dc-588a-44f9-a8dd-9704da3b74c0" name="Default" comment="Re-created GIT structure and double modules for Front-end and Back-end">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Bookstore.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/arquillianContainers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bookstore_back_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/bookstore_back_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_1_3_15_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_aether_provider_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_artifact_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_builder_support_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_model_builder_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_repository_metadata_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_maven_settings_builder_3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_invoker_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_file_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_lightweight_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_http_shared_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_wagon_wagon_provider_api_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_arquillian_spacelift_arquillian_spacelift_1_0_0_Alpha8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_arquillian_spacelift_arquillian_spacelift_api_1_0_0_Alpha8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_javac_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_interpolation_1_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_api_1_0_2_v20150114.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_connector_basic_1_0_2_v20150114.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_impl_1_0_2_v20150114.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_spi_1_0_2_v20150114.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_transport_wagon_1_0_2_v20150114.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_aether_aether_util_1_0_2_v20150114.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_inject_0_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_sisu_org_eclipse_sisu_plexus_0_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_api_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_config_arquillian_config_impl_base_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_impl_base_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_spi_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_api_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_impl_base_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_container_arquillian_container_test_spi_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_api_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_impl_base_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_core_arquillian_core_spi_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_extension_arquillian_rest_client_api_1_0_0_Alpha4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_extension_arquillian_rest_client_impl_3x_1_0_0_Alpha4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_extension_arquillian_rest_client_impl_base_1_0_0_Alpha4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_container_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_junit_arquillian_junit_core_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_jmx_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_protocol_arquillian_protocol_servlet_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_api_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_impl_base_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_test_arquillian_test_spi_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_cdi_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_ejb_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_initialcontext_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_arquillian_testenricher_arquillian_testenricher_resource_1_1_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_invocation_jboss_invocation_1_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_dmr_1_3_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jboss_vfs_3_2_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logmanager_jboss_logmanager_2_0_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_1_4_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_marshalling_jboss_marshalling_river_1_4_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_modules_jboss_modules_1_5_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_msc_jboss_msc_1_2_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_remoting_jboss_remoting_4_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_remotingjmx_remoting_jmx_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_jaxrs_api_3_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_client_3_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jackson_provider_3_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_sasl_jboss_sasl_1_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_api_base_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_impl_base_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_descriptors_shrinkwrap_descriptors_spi_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_api_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_api_maven_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_api_maven_archive_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_api_maven_embedded_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_impl_maven_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_impl_maven_archive_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_impl_maven_embedded_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_spi_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_spi_maven_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_resolver_shrinkwrap_resolver_spi_maven_archive_3_0_0_alpha_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_api_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_impl_base_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_shrinkwrap_shrinkwrap_spi_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_staxmapper_1_2_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_stdio_jboss_stdio_1_0_2_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_threads_jboss_threads_2_2_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_api_3_3_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_xnio_xnio_nio_3_3_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picketbox_picketbox_4_9_4_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_scannotation_scannotation_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_cipher_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_arquillian_wildfly_arquillian_common_2_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_arquillian_wildfly_arquillian_container_remote_2_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_arquillian_wildfly_arquillian_protocol_jmx_2_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_arquillian_wildfly_arquillian_testenricher_msc_2_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_common_wildfly_common_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_controller_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_controller_client_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_core_security_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_core_security_api_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_deployment_repository_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_domain_http_interface_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_domain_management_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_io_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_jmx_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_network_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_platform_mbean_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_process_controller_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_protocol_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_remoting_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_self_contained_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_server_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_core_wildfly_version_2_0_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_wildfly_security_wildfly_elytron_1_0_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaee_endorsed_api_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/bookstore-back.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/model/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/BookEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/EntityNotFoundMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/rest/JAXRSConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/utils/IsbnGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/utils/NumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/java/com/pluralsight/bookstore/utils/TextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/resources/import.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/WEB-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/swagger-ui.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/mock/MockFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/repository/BookRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/test/java/com/pluralsight/bookstore/rest/BookEndpointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/test/resources/META-INF/test-persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-back/src/test/resources/arquillian.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/.angular-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/bookstore-front.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/e2e/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/e2e/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/src/typings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookstore-front/yarn.lock" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bookstore-back/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/bookstore-back/pom.xml" />
+        <option value="$PROJECT_DIR$/bookstore-back/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/index.html" />
+        <option value="$PROJECT_DIR$/bookstore-front/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/bookstore-front/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular-devkit/build-optimizer/node_modules/typescript/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular-devkit/build-optimizer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular-devkit/build-optimizer/webpack-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular-devkit/core/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular-devkit/core/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular-devkit/core/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular-devkit/schematics/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/animations/browser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/animations/browser/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/animations/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/cli/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/cli/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/cli/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/cli/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/cli/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/common/http/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/common/http/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/common/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/common/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/compiler-cli/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/compiler-cli/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/compiler-cli/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/compiler/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/compiler/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/core/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/core/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/forms/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/http/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/http/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/language-service/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/platform-browser-dynamic/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/platform-browser-dynamic/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/platform-browser/animations/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/platform-browser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/platform-browser/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/router/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/router/testing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@angular/router/upgrade/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@ngtools/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@ngtools/webpack/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@ngtools/webpack/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@ngtools/webpack/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@ngtools/webpack/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@schematics/angular/application/files/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@schematics/angular/node_modules/typescript/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@schematics/angular/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@types/jasmine/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@types/jasminewd2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@types/q/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@types/selenium-webdriver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@types/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/@types/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/abbrev/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/acorn-dynamic-import/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/acorn-dynamic-import/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/acorn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/addressparser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/adm-zip/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/after/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/agent-base/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ajv-keywords/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/align-text/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/alphanum-sort/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/amdefine/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/amqplib/examples/tutorials/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/amqplib/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/amqplib/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/amqplib/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ansi-html/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/expand-brackets/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/expand-brackets/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/expand-brackets/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/extglob/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/app-root-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/append-transform/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/aproba/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/are-we-there-yet/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/argparse/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/array-find-index/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/array-includes/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/array-slice/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/array-union/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/array-uniq/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/arraybuffer.slice/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/arrify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/asn1.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/assert/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/assert/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/assert/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ast-types/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/async-each/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/async-foreach/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/async-limiter/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/autoprefixer/node_modules/browserslist/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/autoprefixer/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/autoprefixer/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/autoprefixer/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/axios/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/axios/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/babel-code-frame/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/babel-generator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/babel-messages/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/babel-runtime/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/babel-template/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/babel-traverse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/babel-types/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/babylon/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/backo2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/base64-arraybuffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/base64id/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/batch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/better-assert/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/big.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bitsyntax/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bl/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bl/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bl/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/blob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/block-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/blocking-proxy/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bn.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/body-parser/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bonjour/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bonjour/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/boolbase/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/boom/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/brace-expansion/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/brorand/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/browserify-aes/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/browserify-cipher/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/browserify-des/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/browserify-rsa/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/browserify-sign/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/browserify-zlib/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/browserslist/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/buffer-from/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/buffer-indexof/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/buffer-more-ints/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/buffer-xor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/buffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/buildmail/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/builtin-modules/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/builtin-status-codes/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cacache/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cacache/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/callsite/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/camel-case/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/camelcase-keys/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/camelcase-keys/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/caniuse-api/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/caniuse-db/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/caniuse-lite/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/center-align/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chalk/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chalk/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chokidar/node_modules/glob-parent/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chokidar/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chokidar/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chokidar/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/chownr/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cipher-base/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/circular-dependency-plugin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/circular-json/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/clap/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/clean-css/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/clone-deep/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/clone-deep/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/clone-deep/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/coa/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/code-point-at/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/codelyzer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/color-string/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/color-string/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/color/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/color/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/colormin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/combine-lists/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/common-tags/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/commondir/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/compare-versions/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/component-bind/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/component-inherit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/compressible/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/compression/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/concat-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/connect-history-api-fallback/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/connect/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/console-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/console-control-strings/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/constants-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/convert-source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/copy-concurrently/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/copy-webpack-plugin/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/copy-webpack-plugin/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/copy-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/core-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/core-object/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/core-object/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cosmiconfig/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cosmiconfig/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/create-ecdh/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/create-hash/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/create-hmac/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cryptiles/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/crypto-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/css-color-names/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/css-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/css-parse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/css-select/node_modules/domutils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/css-select/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/css-selector-tokenizer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/css-what/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cssauron/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cssesc/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cssnano/node_modules/autoprefixer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cssnano/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/csso/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cuint/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/currently-unhandled/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/custom-event/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/cyclist/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/d/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/data-uri-to-buffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/date-format/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/date-now/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/decamelize/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/deep-is/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/default-require-extensions/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/define-properties/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/define-property/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/define-property/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/define-property/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/defined/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/degenerator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/del/node_modules/globby/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/del/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/delegates/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/denodeify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/des.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/detect-indent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/detect-node/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/di/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/diffie-hellman/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dir-glob/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dir-glob/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dir-glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dns-equal/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dns-packet/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dns-txt/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dom-converter/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dom-serialize/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/dom-serializer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/domain-browser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/domelementtype/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/domhandler/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/domutils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/double-ended-queue/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/duplexify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ejs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/electron-to-chromium/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/elliptic/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ember-cli-string-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/emojis-list/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/engine.io-client/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/engine.io-client/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/engine.io-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/engine.io/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/engine.io/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/enhanced-resolve/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/entities/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/errno/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/error-ex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es-abstract/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es-to-primitive/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es5-ext/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es6-iterator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es6-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es6-promise/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es6-promisify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es6-set/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es6-symbol/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/es6-weak-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/escodegen/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/escodegen/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/escope/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/esrecurse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/estraverse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/esutils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/event-emitter/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/eventemitter3/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/events/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/eventsource/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/evp_bytestokey/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/execa/node_modules/cross-spawn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/execa/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/exit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-braces/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-braces/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-braces/node_modules/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-braces/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-braces/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-braces/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-range/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-range/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-range/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/exports-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/raw-body/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/raw-body/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/raw-body/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/raw-body/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/extract-text-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fast-levenshtein/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fastparse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/file-loader/node_modules/ajv-keywords/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/file-loader/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/file-loader/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/file-loader/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/file-loader/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/file-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/file-uri-to-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/filename-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fileset/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/finalhandler/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/find-cache-dir/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/flatten/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/flush-write-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/follow-redirects/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/follow-redirects/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/foreach/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/from2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fs-access/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fs-write-stream-atomic/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ftp/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ftp/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ftp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/function-bind/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/gauge/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/gaze/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/generate-function/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/generate-object-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/get-caller-file/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/get-stdin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/get-uri/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/glob-base/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/globals/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/globby/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/globby/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/globule/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/handle-thing/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/handlebars/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/handlebars/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/handlebars/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-binary2/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-binary2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-cors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-unicode/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/has/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/hash-base/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/hash.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/hawk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/he/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/hipchat-notifier/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/hmac-drbg/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/hoek/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/homedir-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/hosted-git-info/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/hpack.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/html-comment-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/html-entities/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/html-minifier/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/html-minifier/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/html-minifier/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/html-webpack-plugin/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/html-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/htmlparser2/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/htmlparser2/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/htmlparser2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-deceiver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-errors/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-parser-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-proxy-middleware/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-proxy-middleware/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-proxy-middleware/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-proxy/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/httpntlm/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/httpreq/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/https-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/https-proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/https-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/icss-replace-symbols/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/icss-utils/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/icss-utils/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/icss-utils/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/icss-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ieee754/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/iferr/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ignore/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/image-size/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/import-cwd/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/import-from/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/import-local/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/imurmurhash/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/in-publish/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/in-publish/test/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/indent-string/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/indexes-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/indexof/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/inflection/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/internal-ip/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/interpret/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/invariant/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/invert-kv/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ip/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-absolute-url/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-arrayish/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-binary-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-builtin-module/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-callable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-date-object/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-directory/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-dotfile/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-equal-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-finite/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-my-ip-valid/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-my-json-valid/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-path-cwd/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-path-in-cwd/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-path-inside/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-plain-obj/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-posix-bracket/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-primitive/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-svg/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-symbol/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-utf8/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/is-wsl/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/isbinaryfile/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/isexe/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-api/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-instrumenter-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-lib-coverage/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-lib-hook/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-lib-instrument/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-lib-report/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-lib-report/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-lib-report/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-lib-source-maps/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-lib-source-maps/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/istanbul-reports/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jasmine-core/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jasmine-spec-reporter/examples/node/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jasmine-spec-reporter/examples/protractor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jasmine-spec-reporter/examples/typescript/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jasmine-spec-reporter/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jasmine/node_modules/jasmine-core/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jasmine/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jasminewd2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/js-base64/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/js-yaml/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/json-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/json-parse-better-errors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/json3/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/json5/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jsonify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jsonpointer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/karma-chrome-launcher/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/karma-coverage-istanbul-reporter/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/karma-jasmine-html-reporter/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/karma-jasmine/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/karma-source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/karma/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/karma/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/karma/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/killable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lazy-cache/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lcid/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less-loader/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/less/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/levn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/libbase64/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/libmime/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/libmime/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/libqp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/license-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/load-json-file/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loader-runner/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/locate-path/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash.assign/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash.camelcase/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash.clonedeep/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash.debounce/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash.memoize/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash.mergewith/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash.tail/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash.uniq/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/log4js/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/log4js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loggly/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loggly/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loggly/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loggly/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loggly/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loggly/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loggly/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loglevel/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/longest/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loose-envify/node_modules/js-tokens/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loose-envify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/loud-rejection/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lower-case/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lru-cache/node_modules/yallist/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/magic-string/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mailcomposer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mailgun-js/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mailgun-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/make-dir/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/make-dir/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/make-error/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/map-obj/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/math-expression-evaluator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/math-random/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/md5.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mem/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/memory-fs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/meow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/micromatch/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/micromatch/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/micromatch/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/miller-rabin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mimic-fn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/minimalistic-assert/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/minimalistic-crypto-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mississippi/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mixin-object/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mixin-object/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/move-concurrently/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/multicast-dns-service-types/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/multicast-dns/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nan/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nan/tools/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nanomatch/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nanomatch/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nanomatch/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nanomatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/neo-async/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/netmask/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/next-tick/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/no-case/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-forge/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-gyp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-libs-browser/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-libs-browser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-modules-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-sass/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/node-uuid/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nodemailer-direct-transport/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nodemailer-fetch/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nodemailer-shared/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nodemailer-smtp-pool/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nodemailer-smtp-transport/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nodemailer-wellknown/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nodemailer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/normalize-package-data/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/normalize-range/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/normalize-url/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/npm-run-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/npmlog/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/nth-check/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/null-check/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/num2fraction/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/number-is-nan/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/object-component/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/object-keys/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/object.omit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/obuf/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/on-headers/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/opn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/optimist/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/optimist/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/optionator/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/optionator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/options/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/original/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/os-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/os-homedir/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/osenv/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/p-finally/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/p-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pac-proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pac-proxy-agent/node_modules/socks-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pac-proxy-agent/node_modules/socks/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pac-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pac-resolver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pako/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/parallel-transform/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/param-case/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/parse-asn1/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/parse-glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/parse-json/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/parse-passwd/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/parseqs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/parseuri/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-dirname/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-is-inside/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-key/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-parse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-proxy/node_modules/inflection/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-proxy/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pbkdf2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pkg-dir/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/portfinder/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/portfinder/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-calc/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-colormin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-convert-values/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-discard-comments/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-discard-duplicates/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-discard-empty/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-discard-overridden/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-discard-unused/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-filter-plugins/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-import/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-import/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-import/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-import/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-load-config/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/node_modules/ajv-keywords/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-merge-idents/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-merge-longhand/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-merge-rules/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-message-helpers/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-minify-font-values/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-minify-gradients/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-minify-params/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-minify-selectors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-extract-imports/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-extract-imports/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-extract-imports/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-extract-imports/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-local-by-default/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-local-by-default/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-local-by-default/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-local-by-default/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-scope/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-scope/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-scope/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-scope/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-values/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-values/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-values/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-modules-values/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-normalize-charset/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-normalize-url/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-ordered-values/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-reduce-idents/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-reduce-initial/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-reduce-transforms/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-selector-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-svgo/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-unique-selectors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-url/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-url/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-url/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-url/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-value-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss-zindex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/postcss/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/prelude-ls/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/prepend-http/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/preserve/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pretty-error/node_modules/utila/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pretty-error/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/process/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/promise-inflight/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/promisify-call/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/protractor/exampleTypescript/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/protractor/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/protractor/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/protractor/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/proxy-agent/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/proxy-from-env/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pseudomap/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/public-encrypt/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pump/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/pumpify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/q/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/qjobs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/query-string/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/querystring-es3/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/querystring/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/querystringify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/randomatic/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/randomatic/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/randomatic/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/randombytes/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/randomfill/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/raw-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/read-cache/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/read-pkg-up/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/readdirp/examples/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/redent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/redis-commands/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/redis-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/redis/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/reduce-css-calc/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/reduce-function-call/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/reflect-metadata/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regenerate/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regenerator-runtime/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regex-cache/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regex-not/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regex-not/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regexpu-core/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regjsgen/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regjsparser/node_modules/jsesc/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/regjsparser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/relateurl/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/renderkid/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/repeating/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/request/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/request/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/requestretry/node_modules/when/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/requestretry/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/require-directory/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/require-from-string/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/require-main-filename/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/requires-port/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve-cwd/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve-from/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve/test/resolver/baz/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve/test/resolver/browser_field/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve/test/resolver/dot_main/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/resolve/test/resolver/incorrect_main/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/right-align/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ripemd160/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/run-queue/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/rxjs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sass-graph/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sass-graph/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sass-graph/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sass-loader/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sass-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/saucelabs/node_modules/agent-base/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/saucelabs/node_modules/https-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/saucelabs/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/saucelabs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/scss-tokenizer/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/scss-tokenizer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/select-hose/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/selenium-webdriver/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/selenium-webdriver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/selfsigned/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/semver-dsl/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/send/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/serialize-javascript/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/serve-index/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/set-blocking/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/set-immediate-shim/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sha.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/shallow-clone/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/shallow-clone/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/shebang-command/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/shebang-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/silent-error/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/slack-node/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/slash/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/smart-buffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/smtp-connection/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sntp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socket.io-adapter/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socket.io-client/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socket.io-parser/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socket.io-parser/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socket.io-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socket.io/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs-client/node_modules/faye-websocket/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs-client/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs/examples/echo/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs/examples/express-3.x/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs/examples/express/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs/examples/hapi/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs/examples/koa/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs/examples/multiplex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sockjs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socks-proxy-agent/node_modules/smart-buffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socks-proxy-agent/node_modules/socks/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socks-proxy-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/socks/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sort-keys/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-list-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-map-loader/node_modules/loader-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-map-loader/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-map-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-map-support/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/spdx-correct/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/spdx-exceptions/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/spdx-expression-parse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/spdx-license-ids/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/spdy-transport/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/spdy/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/split-string/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/split-string/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ssri/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stdout-stream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stream-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stream-each/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stream-http/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stream-http/test/browser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stream-shift/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/streamroller/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/streamroller/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/strict-uri-encode/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stringstream/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/strip-eof/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/strip-indent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/style-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stylus-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stylus/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stylus/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stylus/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stylus/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/stylus/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/svgo/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/svgo/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/svgo/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/symbol-observable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tapable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tar/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/through/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/thunkify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/thunky/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/time-stamp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/timers-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/timespan/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-array/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-arraybuffer/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-fast-properties/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-regex/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-regex/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-regex/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/toposort/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tree-kill/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/trim-newlines/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/trim-right/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/true-case-path/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/true-case-path/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ts-node/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ts-node/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tsconfig/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tsickle/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tsickle/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tslint/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tslint/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tsscmp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tsutils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tty-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/type-check/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/typedarray/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/typescript/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglify-es/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglify-es/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglify-es/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglify-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglify-to-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglifyjs-webpack-plugin/node_modules/ajv-keywords/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglifyjs-webpack-plugin/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglifyjs-webpack-plugin/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglifyjs-webpack-plugin/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglifyjs-webpack-plugin/node_modules/schema-utils/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglifyjs-webpack-plugin/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uglifyjs-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ultron/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/underscore/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/union-value/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uniq/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uniqs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/unique-filename/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/unique-slug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/universalify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/upath/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/upper-case/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uri-js/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uri-js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/url-loader/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/url-parse/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/url/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/url/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/useragent/node_modules/lru-cache/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/useragent/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/utila/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/uws/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/v8flags/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/validate-npm-package-license/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/vendors/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/vlq/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/vm-browserify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/void-elements/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/watchpack/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wbuf/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/built/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/node_modules/adm-zip/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/node_modules/sax/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/node_modules/selenium-webdriver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/node_modules/ultron/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/node_modules/ws/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/node_modules/xml2js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/node_modules/xmlbuilder/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-js-extender/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-manager/built/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webdriver-manager/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-core/node_modules/source-list-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-core/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-core/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-middleware/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-server/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-server/node_modules/del/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-server/node_modules/globby/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-server/node_modules/globby/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-server/node_modules/opn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-server/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-server/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-dev-server/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-merge/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-sources/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-sources/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack-subresource-integrity/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/load-json-file/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/os-locale/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/path-type/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/read-pkg-up/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/read-pkg/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/uglifyjs-webpack-plugin/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/webpack/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/websocket-driver/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/websocket-extensions/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/when/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/whet.extend/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/which-module/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/which/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wide-align/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wide-align/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wide-align/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wide-align/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wide-align/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/window-size/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/with-callback/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/worker-farm/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wrap-ansi/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/ws/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/xml2js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/xmlbuilder/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/xmlhttprequest-ssl/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/xregexp/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/xxhashjs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/y18n/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/yargs-parser/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/yargs/node_modules/camelcase/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/yargs/node_modules/cliui/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/yargs/node_modules/wordwrap/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/yargs/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/yeast/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/yn/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/node_modules/zone.js/package.json" />
+      <path value="$PROJECT_DIR$/bookstore-front/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="78" />
+    <option name="y" value="30" />
+    <option name="width" value="2100" />
+    <option name="height" value="1356" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Bookstore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookstore-front" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bookstore-back" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32528734" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Dev\Java\Bookstore\bookstore-front\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Front-end">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Back-end" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="WildFly" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="bookstore-back:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="main-server-group" />
+        <option name="USERNAME" value="raf" />
+        <option name="PASSWORD" value="secret" />
+      </server-settings>
+      <predefined_log_file id="JBoss" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54819" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bookstore-back:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Back-end Test" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pluralsight.bookstore" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/bookstore-back" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Bookstore" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
+    <configuration name="Maven Rebuild" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="compile" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/bookstore-back" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Front-end" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/bookstore-front/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="JBoss Server.Back-end" />
+      <item itemvalue="JUnit.Back-end Test" />
+      <item itemvalue="Maven.Maven Rebuild" />
+      <item itemvalue="npm.Front-end" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="879549dc-588a-44f9-a8dd-9704da3b74c0" name="Default" comment="" />
+      <created>1532061862925</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532061862925</updated>
+      <workItem from="1532061867112" duration="4957000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Back-end_Test - 2018.07.20 at 12h 20m 30s.xml">
+      <configuration name="Back-end Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4957000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1519" height="977" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.4996573" weight="0.32936978" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5017135" side_tool="true" visible="true" weight="0.32936978" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32936978" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" />
+      <window_info active="true" anchor="bottom" id="Version Control" sideWeight="0.4982865" visible="true" weight="0.32936978" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936978" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4996573" weight="0.32936978" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24948595" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info id="Web" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="JSF" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/bookstore-front/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/bookstore-back" />
+      <path value="$PROJECT_DIR$/bookstore-front" />
+    </ignored-roots>
+    <MESSAGE value="Re-created GIT structure and double modules for Front-end and Back-end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-created GIT structure and double modules for Front-end and Back-end" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bookstore-front/yarn.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="140" column="59" selection-start-line="140" selection-start-column="59" selection-end-line="140" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-front/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookstore-back/src/main/webapp/swagger-ui/oauth2-redirect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <last-edited>WildFly Remote|Remote</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>bookstore-back:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>bookstore-back</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.32528734" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
