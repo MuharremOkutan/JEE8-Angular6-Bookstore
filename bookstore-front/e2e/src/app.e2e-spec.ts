@@ -1,6 +1,6 @@
-import {AppPage} from './app.po';
+import { AppPage } from './app.po';
 
-describe('bookstore-front App', () => {
+describe('workspace-project App', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('bookstore-front App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to bs!');
+    expect(page.getParagraphText()).toEqual('Welcome to bookstore-front!');
   });
 });
