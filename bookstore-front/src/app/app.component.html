@@ -8,9 +8,20 @@
   <button mat-button>Create Book</button>
 </mat-toolbar>
 
-<router-outlet></router-outlet>
+<div id="container">
+
+  <!--<router-outlet></router-outlet>-->
+
+  <bs-book-list></bs-book-list>
+
+</div>
 
 <style>
+
+  #container {
+    padding: 16px;
+  }
+
   .fill-space {
     flex: 1 1 auto;
   }

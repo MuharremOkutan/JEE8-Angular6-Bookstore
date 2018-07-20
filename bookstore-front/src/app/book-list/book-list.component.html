@@ -1,0 +1,49 @@
+<h1 class="mat-headline">Number of Books: {{ nbOfBooks }}</h1>
+
+<mat-grid-list cols="3" rowHeight="450px" gutterSize="24px">
+
+  <mat-grid-tile *ngFor="let book of books">
+
+    <mat-card class="book-card">
+
+      <mat-card-header>
+        <mat-card-title>{{book.title}}</mat-card-title>
+        <mat-card-subtitle>{{book.isbn}}</mat-card-subtitle>
+      </mat-card-header>
+
+      <img mat-card-sm-image [src]="book.imageUrl" [alt]="book.title">
+
+      <mat-card-content class="book-card-content">
+        <p>{{book.description}}</p>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-button color="accent">DELETE</button>
+        <button mat-button color="primary">VIEW</button>
+      </mat-card-actions>
+
+    </mat-card>
+
+  </mat-grid-tile>
+
+</mat-grid-list>
+
+<style>
+
+  img[mat-card-sm-image] {
+    padding: 16px 0;
+  }
+
+  .book-card {
+    width: calc(100% - 70px);
+    height: calc(100% - 70px);
+    /*height: 400px;*/
+  }
+
+  .book-card-content {
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+</style>
