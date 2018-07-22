@@ -5,35 +5,31 @@
   {{ book.isbn }} | {{ book.language }}
 </h2>
 
-<div class="container">
+<form class="container" (ngSubmit)="create()">
 
   <mat-form-field>
-    <input matInput placeholder="ISBN" [(ngModel)]="book.isbn">
+    <input matInput placeholder="ISBN" [(ngModel)]="book.isbn" name="isbn">
   </mat-form-field>
 
   <mat-form-field>
-    <input matInput placeholder="Title" [(ngModel)]="book.title">
+    <input matInput placeholder="Title" [(ngModel)]="book.title" name="title">
   </mat-form-field>
 
   <mat-form-field>
-    <textarea matInput placeholder="Description" rows="7" [(ngModel)]="book.description"></textarea>
+    <textarea matInput placeholder="Description" rows="7" [(ngModel)]="book.description" name="description"></textarea>
   </mat-form-field>
 
   <mat-form-field>
-    <input matInput placeholder="Unit Cost" type="number" [(ngModel)]="book.price">
+    <input matInput placeholder="Unit Cost" type="number" [(ngModel)]="book.price" name="price">
   </mat-form-field>
 
   <mat-form-field>
-    <input matInput placeholder="Number of Pages" type="number" [(ngModel)]="book.nbOfPages">
-  </mat-form-field>
-
-  <mat-form-field>
-    <input matInput placeholder="Title" [(ngModel)]="book.title">
+    <input matInput placeholder="Number of Pages" type="number" [(ngModel)]="book.nbOfPages" name="nbOfPages">
   </mat-form-field>
 
   <mat-form-field>
     <mat-label>Language</mat-label>
-    <mat-select [(ngModel)]="book.language">
+    <mat-select [(ngModel)]="book.language" name="language">
       <mat-option value="ENGLISH">ENGLISH</mat-option>
       <mat-option value="FRENCH">FRENCH</mat-option>
       <mat-option value="SPANISH">SPANISH</mat-option>
@@ -45,12 +41,13 @@
       <mat-option value="RUSSIAN">RUSSIAN</mat-option>
     </mat-select>
   </mat-form-field>
+
   <mat-form-field>
-    <input matInput placeholder="Image" [(ngModel)]="book.imageUrl">
+    <input matInput placeholder="Image" [(ngModel)]="book.imageUrl" name="imageUrl">
   </mat-form-field>
 
   <mat-form-field>
-    <input matInput placeholder="Publication Date" type="date" [(ngModel)]="book.publicationDate">
+    <input matInput placeholder="Publication Date" type="date" [(ngModel)]="book.publicationDate" name="publicationDate">
   </mat-form-field>
 
   <div class="actions">
@@ -58,10 +55,11 @@
     <button mat-flat-button [routerLink]="['/book-list']">BACK</button>
   </div>
 
-</div>
+</form>
 
 <style>
   .container {
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
   }

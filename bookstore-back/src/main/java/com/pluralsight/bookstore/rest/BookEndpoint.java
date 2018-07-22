@@ -31,9 +31,19 @@ public class BookEndpoint {
             @ApiResponse(code = 415, message = "Format is not JSon")
     })
     public Response createBook(@ApiParam(value = "Book to be created", required = true) Book book, @Context UriInfo uriInfo) {
-        book = bookRepository.create(book);
-        URI createdURI = uriInfo.getBaseUriBuilder().path(book.getId().toString()).build();
-        return Response.created(createdURI).build();
+        try{
+            book = bookRepository.create(book);
+            URI createdURI = uriInfo.getBaseUriBuilder().path(book.getId().toString()).build();
+            return Response
+                    .created(createdURI)
+                    .build();
+        }catch (Exception ex) {
+            return Response
+                    .serverError()
+                    .entity(ex.getMessage())
+                    .build();
+
+        }
     }
 
     @GET
@@ -51,7 +61,9 @@ public class BookEndpoint {
         if (book == null)
             return Response.status(Response.Status.NOT_FOUND).build();
 
-        return Response.ok(book).build();
+        return Response
+                .ok(book)
+                .build();
     }
 
     @DELETE
@@ -64,7 +76,9 @@ public class BookEndpoint {
     })
     public Response deleteBook(@PathParam("id") @Min(1) Long id) {
         bookRepository.delete(id);
-        return Response.noContent().build();
+        return Response
+                .noContent()
+                .build();
     }
 
     @GET
@@ -80,7 +94,9 @@ public class BookEndpoint {
         if (books.size() == 0)
             return Response.status(Response.Status.NO_CONTENT).build();
 
-        return Response.ok(books).build();
+        return Response
+                .ok(books)
+                .build();
     }
 
     @GET
@@ -97,6 +113,8 @@ public class BookEndpoint {
         if (nbOfBooks == 0)
             return Response.status(Response.Status.NO_CONTENT).build();
 
-        return Response.ok(nbOfBooks).build();
+        return Response
+                .ok(nbOfBooks)
+                .build();
     }
 }
