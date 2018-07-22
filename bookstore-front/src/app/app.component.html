@@ -1,26 +1,26 @@
-<mat-toolbar color="primary" class="mat-elevation-z1">
+<mat-toolbar color="primary" class="mat-elevation-z1 toolbar">
 
   <span>{{ title }}</span>
 
   <span class="fill-space"></span>
 
-  <button mat-button>List Books</button>
-  <button mat-button>Create Book</button>
+  <button mat-button [routerLink]="['/book-list']">List Books</button>
+  <button mat-button [routerLink]="['/book-form']">Create Book</button>
 </mat-toolbar>
 
 <div id="container">
 
-  <!--<router-outlet></router-outlet>-->
-
-  <bs-book-form></bs-book-form>
-
-  <bs-book-detail></bs-book-detail>
-
-  <bs-book-list></bs-book-list>
+  <router-outlet></router-outlet>
 
 </div>
 
 <style>
+
+  .toolbar{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
 
   #container {
     padding: 16px;

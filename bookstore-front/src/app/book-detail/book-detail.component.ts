@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'bs-book-detail',
@@ -19,9 +20,15 @@ export class BookDetailComponent implements OnInit {
     "language": "ITALIAN"
   };
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+  delete() {
+    // delete
+
+    // redirect
+    this.router.navigate(['/book-list']);
+  }
 }

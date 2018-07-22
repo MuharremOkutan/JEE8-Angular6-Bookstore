@@ -5,42 +5,41 @@
   {{ book.isbn }} | {{ book.language }}
 </h2>
 
-<div class="container">
+  <form (ngSubmit)="delete()" class="container">
+    <mat-form-field>
+      <input matInput placeholder="ISBN" value="{{book.isbn}}" readonly disabled>
+    </mat-form-field>
 
-  <mat-form-field>
-    <input matInput placeholder="ISBN" value="{{book.isbn}}" readonly disabled>
-  </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Title" value="{{book.title}}" readonly disabled>
+    </mat-form-field>
 
-  <mat-form-field>
-    <input matInput placeholder="Title" value="{{book.title}}" readonly disabled>
-  </mat-form-field>
+    <mat-form-field>
+      <textarea matInput placeholder="Description" rows="7" value="{{book.description}}" readonly disabled></textarea>
+    </mat-form-field>
 
-  <mat-form-field>
-    <textarea matInput placeholder="Description" rows="7" value="{{book.description}}" readonly disabled></textarea>
-  </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Unit Cost" value="{{book.price}}" readonly disabled>
+    </mat-form-field>
 
-  <mat-form-field>
-    <input matInput placeholder="Unit Cost" value="{{book.price}}" readonly disabled>
-  </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Number of Pages" value="{{book.nbOfPages}}" readonly disabled>
+    </mat-form-field>
 
-  <mat-form-field>
-    <input matInput placeholder="Number of Pages" value="{{book.nbOfPages}}" readonly disabled>
-  </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Title" value="{{book.title}}" readonly disabled>
+    </mat-form-field>
 
-  <mat-form-field>
-    <input matInput placeholder="Title" value="{{book.title}}" readonly disabled>
-  </mat-form-field>
+    <mat-form-field>
+      <input matInput placeholder="Language" value="{{book.language}}" readonly disabled>
+    </mat-form-field>
 
-  <mat-form-field>
-    <input matInput placeholder="Language" value="{{book.language}}" readonly disabled>
-  </mat-form-field>
+    <div class="actions">
+      <button mat-flat-button color="accent" type="submit">DELETE</button>
+      <button mat-flat-button [routerLink]="['/book-list']">BACK</button>
+    </div>
 
-  <div class="actions">
-    <button mat-flat-button color="accent">DELETE</button>
-    <button mat-flat-button>BACK</button>
-  </div>
-
-</div>
+  </form>
 
 <style>
   .container {
